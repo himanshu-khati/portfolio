@@ -25,12 +25,14 @@ const About = () => {
         <div className="lg:w-6/12 w-full mt-4 md:mt-6 lg:mt-0 text-left flex flex-col  justify-start   h-[600px]    ">
           <h2 className="text-4xl font-bold mb-4">About Me</h2>
           <p className="text-base md:text-lg ">
-            I am a full stack web developer with a passion for creating
-            interactive and responsive web applications. I have experience
-            working with JavaScript, React, Redux, Node.js, Express, PostgreSQL,
-            Sequelize, HTML, CSS, and Git. I am a quick learner and I am always
-            looking to expand my knowledge and skill set. I am a team player and
-            I am excited to work with others to create amazing applications.
+            I am a passionate and versatile Full Stack Web Developer dedicated
+            to crafting seamless digital experiences. With a keen eye for detail
+            and a love for elegant code, I thrive on turning complex ideas into
+            practical solutions. <br />
+            In every project, I strive for a perfect balance between creativity
+            and functionality. I believe that a well-crafted website not only
+            looks good but also works flawlessly, offering users an immersive
+            and delightful experience.
           </p>
           <div className="flex flex-row mt-8">
             {TAB_DATA.map((data) => (

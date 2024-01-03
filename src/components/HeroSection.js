@@ -34,9 +34,8 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#adb7be] text-base sm:text-lg lg:text-xl mb-6">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis,
-            sequi Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Asperiores, ipsam.
+            Building Exceptional Digital Solutions with Full-Stack Expertise,
+            from Backend Ingenuity to Frontend Elegance
           </p>
           <div>
             <button

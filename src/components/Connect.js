@@ -1,9 +1,12 @@
 import gitHubIcon from "../assets/icons/github-icon.svg";
 import linkedinIcon from "../assets/icons/linkedin-icon.svg";
+
 import {
   YOUR_SERVICE_ID,
   YOUR_TEMPLATE_ID,
   YOUR_PUBLIC_KEY,
+  GIT_HUB,
+  LINKED_IN,
 } from "../utils/constants";
 
 import emailjs from "@emailjs/browser";
@@ -53,10 +56,10 @@ const Connect = () => {
             my best to get back to you!
           </p>
           <div className="Socials flex flex-row gap-2 mb-5">
-            <Link to="https://www.github.com">
+            <Link to={GIT_HUB} target="_blank">
               <img src={gitHubIcon} alt="github icon" />
             </Link>
-            <Link to="https://www.linkedin.com">
+            <Link to={LINKED_IN} target="_blank">
               <img src={linkedinIcon} alt="github icon" />
             </Link>
           </div>
@@ -76,7 +79,7 @@ const Connect = () => {
                 id="email"
                 required
                 className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-200 text-sm rounded-lg block w-full p-2.5"
-                placeholder="jacob@google.com"
+                placeholder="user@gmail.com"
               />
             </div>
             <div className="mb-6">

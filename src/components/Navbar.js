@@ -16,9 +16,10 @@ const Navbar = () => {
   return (
     <nav className=" sticky z-50 top-0 bg-[#121212] bg-opacity-100">
       <div className="flex  container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-2">
-        <a href="/">
-          <p className="text-2xl md:text-3xl lg:text-5xl text-gray-200 font-semibold">
-            LOGO
+        <a href="/" className="flex justify-center items-center">
+          <p className="text-2xl  text-gray-200 font-semibold md:hidden ">HK</p>
+          <p className=" md:text-2xl lg:text-3xl text-gray-200 font-semibold hidden md:block  ">
+            HIMANSHU KHATI
           </p>
         </a>
 
