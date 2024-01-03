@@ -62,7 +62,7 @@ export const PROJECT_DATA = [
     image: projImg1,
     tag: ["All", "Web"],
     gitUrl: "https://github.com/himanshu-khati/cinewhiz-gpt",
-    previewUrl: "https://cinewhizgpt.web.app",
+    previewUrl: "https://cinewhiz.web.app",
   },
   {
     id: 2,
@@ -71,7 +71,7 @@ export const PROJECT_DATA = [
       "Discover a vast array of videos spanning across genres - from educational tutorials and mesmerizing vlogs to thrilling gaming adventures and heartwarming storytelling. ",
     image: projImg2,
     tag: ["All", "Web"],
-    gitUrl: "https://github.com/himanshu-khati/TubeVerse",
+    gitUrl: "https://github.com/himanshu-khati/tubeverse",
     previewUrl: "https://tubeverse.web.app",
   },
   {
